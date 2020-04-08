@@ -1,0 +1,151 @@
+.login{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    display: none;
+}
+.login .loginWrap{
+    width: 322px;
+    margin-left: -121px;
+    margin-top: -192px;
+    padding:50px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.login .loginWrap .loginTitle{
+    padding: 10px;
+}
+.login .loginWrap .loginTitle h1{
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(240, 62, 62);
+}
+.login .loginWrap .loginTitle span{
+    width:200px;
+    display: inline-block;
+    text-align: right;
+    font-size: 20px;
+    color: #ccc;
+    cursor: pointer;
+}
+.login .loginWrap .loginContent input{
+    text-indent: 1em;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+    border-image: initial;
+    border-radius: 30px;
+    outline: none;
+}
+.login .loginWrap button{
+    width: 300px;
+    height: 42px;
+    line-height: 42px;
+    background: rgb(153, 153, 153);
+    border-radius: 30px;
+    border:none;
+    color: #f4f4f4;
+    font-size: 15px;
+    cursor: pointer;
+}
+.login .loginWrap .loginFooter p{
+    text-align: right;
+    margin-right: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+.login .loginWrap .loginFooter p:hover{
+    color: #248DCC;
+}
+.signUp{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    display: none;
+}
+.signUp .signUpWrap{
+    width: 322px;
+    margin-left: -121px;
+    margin-top: -192px;
+    padding:50px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.signUp .signUpWrap .signUpTitle{
+    padding: 10px;
+}
+.signUp .signUpWrap .signUpTitle h1{
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(240, 62, 62);
+}
+.signUp .signUpWrap .signUpTitle span{
+    width:200px;
+    display: inline-block;
+    text-align: right;
+    font-size: 20px;
+    color: #ccc;
+    cursor: pointer;
+}
+.signUp .signUpWrap .signUpContent input.inline{
+    display: inline-block;
+}
+.signUp .signUpWrap .signUpContent input.user{
+    width: 30%;
+}
+.signUp .signUpWrap .signUpContent input.email{
+    width: 60%;
+}
+.signUp .signUpWrap .signUpContent input{
+    text-indent: 1em;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+    border-image: initial;
+    border-radius: 30px;
+    outline: none;
+}
+.signUp .signUpWrap button{
+    width: 300px;
+    height: 42px;
+    line-height: 42px;
+    background: rgb(153, 153, 153);
+    border-radius: 30px;
+    border:none;
+    color: #f4f4f4;
+    font-size: 15px;
+    cursor: pointer;
+}
+.signUp .signUpWrap .signUpFooter p{
+    text-align: right;
+    margin-right: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+.signUp .signUpWrap .signUpFooter p:hover{
+    color: #248DCC;
+}
+.signUp .signUpWrap>p{
+    color: #f00;
+    height:20px;
+}
